@@ -14,10 +14,10 @@ You can learn more about the truffle on the following link
 
 Truffle Quik Reference : [Truffle](https://trufflesuite.com/)
 
-Truffle Docuemntation : [Docs](https://trufflesuite.com/docs/truffle/quickstart.html)
+Truffle Documentation : [Docs](https://trufflesuite.com/docs/truffle/quickstart.html)
 
 
-## Ganache Insatallation 
+## Ganache Installation 
 
 Ganache is the Local blockchain environment which will create local environmant of the blockchain into your system. It will be much easier for you to write and run test your smart contracts locally. 
 
@@ -40,10 +40,10 @@ To use the blockchain, you need to install distributed application (dApp) browse
 
 Installing the metamask
 
-Step 1. Go to the [Metamask website](https://metamask.io/).
-Step 2. Click “Get Chrome Extension” to install Metamask.
-Step 3. Click “Add to Chrome” in the upper right.
-Step 4. Click “Add Extension” to complete the installation.
+Step 1. Go to the [Metamask website](https://metamask.io/).<br />
+Step 2. Click “Get Chrome Extension” to install Metamask\n.<br />
+Step 3. Click “Add to Chrome” in the upper right.<br />
+Step 4. Click “Add Extension” to complete the installation.<br />
 
 Setup Metamask 
 
@@ -66,17 +66,17 @@ truffle init
 ```
 ## Directory Structure
 
-```sh
-/build/contracts: directory created after the truffle compile.
-/contracts: Directory in which smart contract files are stored.
-/migrations: Migrations files to move the smart contracts to the blockchain.
-/src: Front-end files to render the ui.
-/test: Smart contract test files.
-/.gitignore: gitignore files to be excluded from the git.
-/bs-config.json: config file for frontend.
-/package.json: Dependancies file for the project.
-/trufle-config.json: Truffle config file.
-```
+| Directory| Description|
+| --------------------- | :-------------------------------------------------------------: |
+|/build/contracts| directory created after the truffle compile|
+|/contracts| Directory in which smart contract files are stored|
+|/migrations| Migrations files to move the smart contracts to the blockchain. |
+|/src| Front-end files to render the ui|
+|/test| Smart contract test files|
+|/.gitignore| gitignore files to be excluded from the git|
+|/bs-config.json| config file for frontend|
+|/package.json| Dependancies file for the project|
+|/trufle-config.json| Truffle config file|  
 
 And here we have setuped our To Do List project. 
 ```sh
