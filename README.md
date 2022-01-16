@@ -76,7 +76,7 @@ truffle init
 |/.gitignore| gitignore files to be excluded from the git|
 |/bs-config.json| config file for frontend|
 |/package.json| Dependancies file for the project|
-|/trufle-config.json| Truffle config file|  
+|/truffle-config.json| Truffle config file|  
 
 And here we have setuped our To Do List project. 
 ```sh
